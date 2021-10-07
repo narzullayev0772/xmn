@@ -1,0 +1,11 @@
+.fanlar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 2% 1%;
+    gap: 1%;
+    align-items: center;
+    justify-content: flex-start;
+}

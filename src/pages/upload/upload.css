@@ -1,0 +1,98 @@
+.uploadPage{
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f3f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    font-size: 2rem;
+    color: #222;
+}
+.uploadForm{
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color: #fff;
+    gap: 3%;
+}
+.uploadIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    color: #999;
+    border: 2px dashed #999;
+    border-radius: 7px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-origin: border-box;
+}
+.uploadForm input:nth-child(1){
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+.fileIcon{
+    position: absolute;
+    z-index: 0;
+    animation: anim 1s linear infinite;
+}
+.MuiSvgIcon-root{
+    color: limegreen;
+    font-size: 50px !important;
+}
+.filename{
+    position:absolute;
+    right: -50%;
+    color: rgba(0, 0, 255, 0.9);
+}
+textarea{
+    resize: none;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #dcdcdc88;
+    padding: 2%;
+    font-size: 14px;
+}
+.submitBtn{
+    width: 40%;
+    height: 10%;
+    font-size: 14px;
+    background-color: #3c8dbc;
+    border-color: #367fa9;
+    border: 0;
+    color: #fff;
+    transform: translateX(150%);
+}
+.submitBtn:hover{
+    background-color: #367fa9
+}
+@keyframes anim {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

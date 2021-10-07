@@ -1,0 +1,44 @@
+.fan{
+    width: 30%;
+    margin: 10px;
+    user-select: none;
+}
+.fanHeader{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background-color: #3c8dbc;
+    color: #fff;
+    padding:20px 10px;
+}
+.upload,.download{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #666;
+}
+.upload:hover,.download:hover{
+    background-color: rgba(0, 0, 0, 0.01);
+}
+a{
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+}
+.counter{
+    padding: 0 5px;
+    line-height: 10p;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+}
+@media screen and (max-width:991px) {
+    .fan{
+        width: 45%;
+    }
+}
+@media screen and (max-width:576px) {
+    .fan{
+        width: 100%;
+    }
+}
