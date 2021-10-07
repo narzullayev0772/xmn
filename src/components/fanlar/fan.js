@@ -1,4 +1,5 @@
 import "./fan.css"
+import { Link } from "react-router-dom";
 const Fan = () => {
     return (
     <div className="fan">
@@ -9,11 +10,11 @@ const Fan = () => {
         </div>
         <div className="fanMain">
             <div className="upload">
-               <a href="/upload">Upload</a>
+               <Link to="/upload">Upload</Link>
                <span className="counter">0</span>
             </div>
             <div className="download">
-                <a href="/download">Downlaod</a>
+                <Link to="/download">Downlaod</Link>
                 <span className="counter">0</span>
             </div>
         </div>
