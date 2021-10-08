@@ -86,14 +86,14 @@ textarea{
     width: 40%;
     height: 15%;
     font-size: 14px;
-    background-color: #3c8dbc;
-    border-color: #367fa9;
+    background-color: #7223b4;
+    border-color: #7723b4;
     border: 0;
     color: #fff;
     transform: translateX(150%);
 }
 .submitBtn:hover{
-    background-color: #367fa9
+    background-color: #511a7e;
 }
 @keyframes anim {
     0%{

@@ -2,12 +2,12 @@
     width: 30%;
     margin: 10px;
     user-select: none;
-    box-shadow: 1px 1px 10px #775;
+    box-shadow: .1px .1px 5px #888;
 }
 .fanHeader{
     width: 100%;
     border-radius: 5px 5px 0 0;
-    background-color: #3c8dbc;
+    background-color: #7223b4;
     color: #fff;
     padding:20px 10px;
 }
