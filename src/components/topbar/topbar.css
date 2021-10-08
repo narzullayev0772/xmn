@@ -25,10 +25,6 @@
     border-radius: 10px;
     box-shadow: 1px 1px 5px #ffffff50;
 }
-.accountImg{
-    height: 40px;
-    border-radius: 50%;
-}
 .accountName{
     font-size: 18px;
     font-weight: 500;
@@ -36,4 +32,7 @@
 .accountKurs{
     font-size: 14px;
     font-weight: 300;
+}
+.logoText,.account{
+    color: #fff;
 }

@@ -9,8 +9,8 @@
 }
 .header{
     font-size: 2rem;
-    color:teal;
-    text-shadow: 1px 1px 2px #555;
+    color:#511a7e;
+    user-select: none;
 
 }
 .uploadForm{
@@ -23,7 +23,7 @@
     border-radius: 10px;
     background-color: #fff;
     gap: 3%;
-    box-shadow: 1px 1px 10px #555;
+    box-shadow: 1px 1px 5px #555 inset;
 }
 .uploadIcon{
     display: flex;
@@ -57,10 +57,6 @@
     z-index: 0;
     animation: anim 1s linear infinite;
 }
-.MuiSvgIcon-root{
-    color: limegreen;
-    font-size: 50px !important;
-}
 .filename{
     position:absolute;
     width: 100%;
@@ -91,6 +87,8 @@ textarea{
     border: 0;
     color: #fff;
     transform: translateX(150%);
+    font-weight: 500;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) inset;
 }
 .submitBtn:hover{
     background-color: #511a7e;

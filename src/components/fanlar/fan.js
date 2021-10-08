@@ -8,15 +8,18 @@ const Fan = (props) => {
         {fanlar.map((fan)=>
         <div className="fan" key={fan.fan}>
        <div className="fanHeader">
+           <img src="/assets/subjects/subject3.png" alt="" />
        <h2>{fan.fan}</h2>
         </div>
         <div className="fanMain">
             <div className="upload">
-               <Link to="/upload">Upload</Link>
+               <Link to="/upload" className="a">
+                   <p>Upload</p>
+                   </Link>
                <span className="counter">0</span>
             </div>
             <div className="download">
-                <Link to="/download">Downlaod</Link>
+                <Link to="/download" className="a">Downlaod</Link>
                 <span className="counter">0</span>
             </div>
         </div>

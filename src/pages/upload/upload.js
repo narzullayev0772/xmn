@@ -23,7 +23,7 @@ const Upload = () => {
             <form className="uploadForm" method="post" encType="multipart/form-data">
                 <div className="uploadIcon">
                 <input onChange={filePick} type="file" required name="subject" id="file" multiple="multiple" accept=".pdf, .docx, .doc, .ppt, .pptx, .xls, .xlsx, .zip, .rar"/>
-                <CloudUpload  className="fileIcon"/>
+                <CloudUpload  className="fileIcon" htmlColor="lime" fontSize='large'/>
                 <p className="filename" id="filename"></p>
                 </div>
                 <textarea name="text" id="desc" required placeholder="Izoh:"></textarea>
