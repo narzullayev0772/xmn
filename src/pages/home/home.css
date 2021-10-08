@@ -1,6 +1,9 @@
+.home{
+    width: 100%;
+}
 .fanlar{
     width: 100%;
-    height: auto;
+    height: 92vh;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -8,4 +11,9 @@
     gap: 1%;
     align-items: center;
     justify-content: flex-start;
+}
+@media screen and (max-width:576px) {
+    .fanlar{
+        height: auto;
+    }
 }

@@ -1,12 +1,14 @@
 import "./fan.css"
 import { Link } from "react-router-dom";
-const Fan = () => {
+const Fan = (props) => {
+    const fanlar = props.Fanlar;
+   
     return (
-    <div className="fan">
-        <div className="fanHeader">
-            <h2 className="fanHeaderText">
-                Dasturlash
-            </h2>
+        <>
+        {fanlar.map((fan)=>
+        <div className="fan" key={fan.fan}>
+       <div className="fanHeader">
+       <h2>{fan.fan}</h2>
         </div>
         <div className="fanMain">
             <div className="upload">
@@ -18,7 +20,8 @@ const Fan = () => {
                 <span className="counter">0</span>
             </div>
         </div>
-    </div> );
+    </div>  )}
+    </>)
 }
  
 export default Fan;

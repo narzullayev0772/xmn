@@ -1,6 +1,6 @@
 .uploadPage{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-color: #f1f3f5;
     display: flex;
     flex-direction: column;
@@ -9,27 +9,30 @@
 }
 .header{
     font-size: 2rem;
-    color: #222;
+    color:teal;
+    text-shadow: 1px 1px 2px #000;
+
 }
 .uploadForm{
     padding: 20px;
-    width: 400px;
-    height: 400px;
+    width: 50vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     border: 1px solid #555;
     border-radius: 10px;
     background-color: #fff;
     gap: 3%;
+    box-shadow: 1px 1px 10px #000;
 }
 .uploadIcon{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 100%;
     color: #999;
     border: 2px dashed #999;
     border-radius: 7px;
@@ -60,7 +63,12 @@
 }
 .filename{
     position:absolute;
-    right: -50%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    bottom: -20%;
     color: rgba(0, 0, 255, 0.9);
 }
 textarea{
@@ -70,11 +78,13 @@ textarea{
     border-radius: 5px;
     background-color: #dcdcdc88;
     padding: 2%;
+    margin: 3% 0;
+    height: 30vh;
     font-size: 14px;
 }
 .submitBtn{
     width: 40%;
-    height: 10%;
+    height: 15%;
     font-size: 14px;
     background-color: #3c8dbc;
     border-color: #367fa9;
