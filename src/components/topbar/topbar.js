@@ -7,7 +7,7 @@ const Topbar = () => {
             <div className="topbarLeft">
             <Link to="/" className="a">
             <div className="logo">
-                <h2 className="logoText">Helper</h2>
+                <h2 className="logoText">iProblem</h2>
             </div>
             </Link>
             </div>

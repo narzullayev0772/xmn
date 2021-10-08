@@ -36,3 +36,6 @@
 .logoText,.account{
     color: #fff;
 }
+a{
+    text-decoration: none;
+}
